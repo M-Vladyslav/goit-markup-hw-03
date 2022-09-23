@@ -215,12 +215,14 @@ body {
 .slogan-name {
   width: 696px;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-}
-.button-order {
 }
 .title-slogan {
   background: var(--grey-color);
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .button-order {
@@ -234,15 +236,15 @@ body {
   cursor: pointer;
   color: var(--top-line-color);
   background: var(--blue-color);
+  display: block;
+  margin: 0 auto;
 }
 .button-order:hover,
 .button-order:focus {
   color: var(--top-line-color);
   background-color: var(--button-color);
 }
-.soft-skills {
-  outline: 1px solid tomato;
-}
+
 .soft-skills-item {
   font-weight: 700;
   font-size: 14px;
@@ -269,24 +271,18 @@ body {
 .soft-skills-item {
   margin-bottom: 10px;
 }
-.soft-skills-discription {
-  outline: 1px solid tomato;
-}
 .image-job-title {
   text-align: center;
-  outline: 2px solid tomato;
   margin-bottom: 50px;
+  margin-top: 94px;
 }
 .image-list {
   display: flex;
   width: 370px;
 }
-.image-job {
-  padding: 30px;
-}
+
 .image-team {
   text-align: center;
-  outline: 2px solid tomato;
   margin-bottom: 50px;
 }
 .image-team-list {
