@@ -34,7 +34,6 @@ button {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 4px solid red;
 }
 .html {
   box-sizing: border-box;
@@ -70,9 +69,15 @@ body {
 .link-decoration {
   text-decoration: none;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .title {
   background-color: var(--top-line-color--);
-  outline: 6px solid tomato;
+  border-bottom: 1px solid #ececec;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .main-link {
   display: flex;
@@ -90,7 +95,6 @@ body {
   margin-left: 93px;
 }
 .navigation-item {
-  outline: 6px solid tomato;
   display: block;
 }
 .navigation-header .navigation-item {
@@ -122,7 +126,6 @@ body {
   color: var(--blue-color);
   display: flex;
   display: inline-block;
-  outline: 1px solid red;
 }
 .Studio-header {
   font-family: 'Raleway';
@@ -134,7 +137,6 @@ body {
   color: var(--studio-top-color);
   display: flex;
   display: inline-block;
-  outline: 1px solid red;
 }
 
 .navigation-header-link {
@@ -178,7 +180,6 @@ body {
   display: flex;
   margin-bottom: 56px;
   justify-content: center;
-  padding-top: 100px;
 }
 
 .btn {
@@ -198,7 +199,9 @@ body {
   color: var(--top-line-color);
   background-color: var(--blue-color);
 }
-
+.image-border {
+  border: 1px solid #eeeeee;
+}
 .slogan-name {
   font-weight: 900;
   font-size: 44px;
@@ -207,6 +210,14 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--top-line-color);
+}
+
+.slogan-name {
+  width: 696px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.button-order {
 }
 .title-slogan {
   background: var(--grey-color);
@@ -229,7 +240,9 @@ body {
   color: var(--top-line-color);
   background-color: var(--button-color);
 }
-
+.soft-skills {
+  outline: 1px solid tomato;
+}
 .soft-skills-item {
   font-weight: 700;
   font-size: 14px;
@@ -246,6 +259,41 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
+.soft-skills-list {
+  display: flex;
+  margin-bottom: 0;
+}
+.item {
+  width: 270px;
+}
+.soft-skills-item {
+  margin-bottom: 10px;
+}
+.soft-skills-discription {
+  outline: 1px solid tomato;
+}
+.image-job-title {
+  text-align: center;
+  outline: 2px solid tomato;
+  margin-bottom: 50px;
+}
+.image-list {
+  display: flex;
+  width: 370px;
+}
+.image-job {
+  padding: 30px;
+}
+.image-team {
+  text-align: center;
+  outline: 2px solid tomato;
+  margin-bottom: 50px;
+}
+.image-team-list {
+  display: flex;
+  width: 270px;
+}
+
 .image-job-title,
 .image-team {
   font-weight: 700;
@@ -264,6 +312,8 @@ body {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: var(--dark-grey-color);
+  display: block;
+  text-align: center;
 }
 
 .image-team-position {
@@ -272,6 +322,8 @@ body {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  display: block;
+  text-align: center;
 }
 .images {
   display: flex;
@@ -298,6 +350,7 @@ body {
   display: inline-block;
   margin-top: 20px;
   margin-bottom: 0;
+  margin-left: 24px;
 }
 .image-name-discription {
   font-weight: 400;
@@ -309,9 +362,12 @@ body {
   display: block;
   margin-top: 4px;
   margin-bottom: 20px;
+  margin-left: 24px;
 }
 .site-footer {
   background: var(--grey-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .Web {
   font-family: 'Raleway';
@@ -368,11 +424,6 @@ body {
 .contact-phone:focus {
   color: var(--blue-color);
 }
-
-.Web .Studio {
-  display: flex;
-}
-
 .contact-information {
   margin-top: 20px;
 }
