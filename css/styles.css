@@ -23,13 +23,12 @@ ul {
   margin: 0;
   padding-left: 0;
   list-style: none;
-  gap: 30px;
 }
 button {
   cursor: pointer;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -107,7 +106,7 @@ body {
   display: flex;
   margin-left: 359px;
 }
-.contact .navigation-list + .navigation-list {
+.contact .navigation-item + .navigation-item {
   margin-left: 50px;
 }
 .contact-item {
@@ -193,7 +192,10 @@ body {
   color: var(--dark-grey-color);
   background-color: var(--mud-white-color);
   padding: 6px 22px;
+  display: block;
+  margin-right: 8px;
 }
+
 .btn:hover,
 .btn:focus {
   color: var(--top-line-color);
@@ -310,6 +312,7 @@ body {
   color: var(--dark-grey-color);
   display: block;
   text-align: center;
+  margin-top: 30px;
 }
 
 .image-team-position {
@@ -320,6 +323,7 @@ body {
   color: var(--main-text-color);
   display: block;
   text-align: center;
+  margin-top: 10px;
 }
 .images {
   display: flex;
@@ -394,6 +398,8 @@ body {
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--top-line-color);
+  display: block;
+  margin-bottom: 9px;
 }
 
 .contact-email {
@@ -403,6 +409,8 @@ body {
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--mail-color);
+  display: block;
+  margin-bottom: 9px;
 }
 .contact-email:hover,
 .contact-email:focus {
